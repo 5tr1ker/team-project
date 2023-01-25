@@ -1,16 +1,45 @@
-<h1> 📎todayCheck </h1> 
+<h1> 📎todayCheck ( 2022.11 ~ 2023.1 ) </h1> 
 
 > 일일 미션을 만들어 이를 인증하고 소통하는 웹사이트
 
 ![미션 디테일](https://user-images.githubusercontent.com/49367338/214349734-0f42f28f-3bf5-4e6c-bd80-93c8ff2fd375.png)
 
-<h3># 주요 기능</h3>
+<h3>◼ 주요 기능</h3>
 프로젝트 주요 기능은 다음과 같습니다.<br/><br/>
 
 - 게시판 : 작성 기능
-- 사용자 : Security 회원가입 및 로그인 ( JWT ) , OAuth 2.0 (구글, 네이버) , 회원정보 수정, 회원가입시 중복 검사
 - 댓글 : 댓글 작성 기능
+- 사용자 : Security 회원가입 및 로그인 ( JWT ) , OAuth 2.0 (구글, 네이버) , 회원정보 수정, 회원가입시 중복 검사
+- 미션 : 미션 생성 및 참여와 일일 출석 인증 기능
 - 보안 : RefreshToken는 클라이언트의 접근 제한 , AccessToken 과 RefreshToken 를 발급해 API 요청에 대한 권한 확인
+
+<h2>Project Structure</h2>
+
+> React ( SPA ) + Spring ( API ) 구조로 개발했습니다.
+
+◼ Front-End ( 김완영 , 이예진 )
+- React ( SPA )
+- Styled-componets ( Css )
+- React-router ( Router )
+- Meterial UI ( MUI )
+
+◼ Back-End ( 박상진 , 박철진 )
+- Spring Boot ( API Server )
+- Spring Security ( Security )
+- JUnit ( Test )
+- MySQL ( RDBMS )
+- JPA Hibernate & QueryDSL ( ORM )
+- OAuth 2.0 & JWT ( Login )
+- Docker ( Container )
+
+◼ Tools
+- Git ( GitHub )
+- Swagger ( Open API Specification )
+
+<h2>Entity Relationship Diagram</h2>
+
+![DB](https://user-images.githubusercontent.com/49367338/214645020-a7c0f3cb-66ed-46b3-9e24-e731c18e9eab.png)
+
 
 <h2>1 . 로그인 / 회원가입</h2>
 
